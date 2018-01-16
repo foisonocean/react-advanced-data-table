@@ -1,0 +1,25 @@
+@import 'styles/variables'
+
+.clsprefix
+  &-grouped-column-container
+    flex-grow 1
+    flex-shrink 0
+
+  &-grouped-column-header-name
+    height (header-cell-height / 2)
+    background header-background
+    color header-font-color
+    cursor grab
+
+  &-grouped-body
+    display flex
+
+  &-grouped-column-body-header
+    height (header-cell-height / 2)
+    background header-background
+    color header-font-color
+    cursor grab
+
+  &-grouped-column-cell
+    outline 1px solid border-color
+    height body-cell-height

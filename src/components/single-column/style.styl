@@ -1,0 +1,19 @@
+@import 'styles/variables'
+
+.clsprefix
+  &-single-column
+    &-container
+      flex-grow 1
+      flex-shrink 0
+
+    &-header
+      height header-cell-height
+      background header-background
+      font-size 18px
+      color header-font-color
+      &:hover
+        cursor grab
+
+    &-cell
+      outline 1px solid #d1d1d1
+      height body-cell-height
